@@ -1,5 +1,84 @@
-@media all and (min-width: 724px) {
-    body {
-        background-color: white;
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+nav{
+
+}
+@media all and (min-width:1000px){
+    .wrapper{
+        overflow: hidden;
+        margin: 0 auto;
+        width: 90%;
     }
+    nav img{
+        width:200px;
+    }
+    li{
+        padding:6px;
+    }
+    ol{
+        padding:0;
+        margin:0;
+    }
+
+}
+@media all and (min-width: 550px) {
+    li{
+        padding-left:15px;
+        padding:5px;
+        height:100%;
+        display:inline-block;
+        width:auto;
+    }
+    nav img{
+        float:left;
+    }
+
+}
+@media all and (min-width: 724px) {
+    li{
+        padding:6px;
+    }
+}
+
+ol {
+    list-style-type: none ;
+    float: left;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000; /* kleur van de navigatiebalk */
+}
+
+
+li {
+    float: left; /* Button Positie*/
+
+}
+
+li a {
+    color: white; /* Tekst Kleur */
+    text-align: center; /* Tekst Positie */
+    text-decoration: none;
+}
+nav img{
+    filter: invert(100%);
+}
+
+nav {
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.navbar {
+    margin-top: 85px;
+    margin-left: 50px;
 }
